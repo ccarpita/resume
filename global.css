@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.2em;
+}
+
+nav {
+  padding: 1em;
+  display:flex;
+}
+
+@media print {
+  nav {
+    display: none;
+  }
+}

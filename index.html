@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chris Carpita - Resume</title>
+    <link rel="stylesheet" href="global.css" />
+    <link data-theme="business" rel="stylesheet" href="theme/business.css" disabled />
+    <link data-theme="academic" rel="stylesheet" href="theme/academic.css" disabled />
+  </head>
+  <body>
+    <nav>
+      <fieldset data-control="style">
+        <label for="style-selector">Style</label>
+        <select id="style-selector">
+          <option value="business">Business</option>
+          <option value="academic">Academic</option>
+        </select>
+      </fieldset>
+      <button id="print">Print</button>
+    </nav>
+    <header>
+      <h1>Christopher Scott Carpita</h1>
+      <address>ccarpita@gmail.com | (607) 229-6412 | <a href="github.com/ccarpita">github.com/ccarpita</a></address>
+      <address>61 South St, Apt 2, Jersey City, NJ 07307</address>
+    </header>
+    <article>
+      <section data-primary="skills">
+        <h2>Primary Skills</h2>
+        <dl>
+          <dt>Web Frontend</dt><dd>Javascript/ES2015+, CSS3, HTML5 - 10 years</dd>
+          <dt>Java</dt><dd>Backend - 4 years</dd>
+          <dt>Cloud Platforms</dt><dd>Google Cloud Services, AWS - 4 years</dd>
+          <dt>C++</dt><dd>Client Libraries - 2 years</dd>
+          <dt>Python</dt><dd>Tooling, Web API - 2 years</dd>
+          <dt>Scala</dt><dd>Data Pipelines, Apache Beam - 1 year</dd>
+          <dt>PHP + Perl</dt><dd>5 years</dd>
+        </dl>
+      </section>
+      <section data-primary="experience">
+        <h2>Experience</h2>
+        <div data-section="employer">
+          <h3>Spotify</h3>
+          <details>Spotify is the largest music streaming service in the world, boasting 80+ million paying subscribers and over 200 million monthly active users (MAU).</details>
+          <div data-section="role">
+            <h4>Lead Engineer <span>January 2015 - Present</span></h4>
+            <details>Worked as an individual contributor and tech owner in collaboration with other lead engineers in the ads feature, then mobile client infrastructure organization.</details>
+            <div><h5>2018</h5>
+              <ul>
+                <li>Implemented code coverage UI/UX for mobile/desktop feature teams, giving 150+ iOS, Android, and Desktop developers visibility into their unit test coverage. This included custom integration with the client build systems, development in horizontally scalable Scala pipelines, Java backends (including GraphQL), and design and implementation on the React/Apollo frontend.</li>
+                <li>Successfully promoted an RFC for standardized systems documentation to the leading technical architecture group for the company.</li>
+              </ul>
+            </div>
+            <div><h5>2017</h5>
+              <ul>
+                <li>Joined mobile infrastructure team and co-authored design and implementation of record/replay integration test system for general use by Desktop feature teams.</li>
+                <li>Designed architecture for test and code coverage data processing using Spotify's monitored big-data infrastructure (Scala/Scio/BigQuery/Dataflow), pushing for a change from the existing ad-hoc scripted (Python/ElasticSearch) ingestion of data.</li>
+              </ul>
+            </div>
+            <div><h5>2016</h5>
+              <ul>
+                <li>Stabilized and improved infrastructure for end-to-end client ads tests, driving an improved culture of care for automated testing.</li>
+                <li>Led cross-platform feature development team for promoted music on Spotify, with a strong focus on project management, and simultaneously leading the backend development, system architecture, and contributing to mobile and desktop clients.</li>
+              </ul>
+            </div>
+            <div><h5>2015</h5>
+              <ul>
+                <li>Designed and implemented Java backend service to adapt programmatic ad exchange metadata to the existing client infrastructure.</li>
+                <li>Authored React application that enabled internal teams to generate audio ads from written text, and implemented the backend integration with the Google Ad Server.</li>
+                <li>Continued to support the low-level client components for ads integrations, making various improvements for third-party tracking.</li>
+              </ul>
+            </div>
+          </div>
+          <div data-section="role">
+            <h4>Software Engineer <span>June 2018 - January 2015</span></h4>
+            <div><h5>2014</h5>
+              <ul>
+                <li>Learned C++ and became a major contributor to the implementation of the ads stack within the span of 3 months, supporting audio and video playback on mobile &amp; desktop client applications.</li>
+              </ul>
+            </div>
+            <div><h5>2013</h5>
+              <ul>
+                <li>Co-designed the architectural plan for new client ads stack which integrated the six-year-old Spotify client with standard ad servers, with a plan to migrate from the legacy internal ad service</li>
+                <li>Implemented the new ads architecture on play.spotify.com using IMA JavaScript SDK.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div data-section="employer">
+          <h3>Snooth Media</h3><address>New York, NY</address>
+          <details>Snooth is a...</details>
+          <div data-section="role">
+            <h4>CTO</h4>
+            <details>Managed a three-person team, including a designer, web developer, and mobile developer to create user-focused products for Snooth.com, while continuing to contribute as a web developer and systems administrator.</details>
+            <div><h5>2012-2013</h5>
+              <ul>
+                <li>Developed a Web UI that allowed wine experts to create automatic rules to merge products based on the faceted search front-end, which allowed for the de-duplication of millions of wine records.</li>
+                <li>Managed site structural changes on Snooth.com to improve the information architecture from a search engine standpoint, creating natural click paths to our 3M+ long tail pages.</li>
+                <li>Engaged in product development with the CEO to plan and implement website features, including inventory search and local deals.</li>
+              </ul>
+            </div>
+          </div>
+          <div data-section="role">
+            <h4>Senior Software Engineer</h4>
+            <details>Worked as the principal engineer on Snooth.com under the direction of the CTO, building interactive features for wine lovers, and helping to grow site traffic from 75k to 1M visits/month.</details>
+            <div><h5>2011</h5>
+              <ul>
+                <li>Wrote a light-weight Javascript framework [non-minified source: m1.isnooth.com/js/xd.js] that combined jQuery design elements with the core functionality of MooTools and included a post-loading mechanism for plugin extensions, and an inter-plugin communication API.</li>
+                <li>Worked with the CTO on a fundamental design pattern change within the PHP framework that allowed developers to associate multiple views with a model.</li>
+              </ul>
+            </div>
+            <div><h5>2010</h5>
+              <ul>
+                <li>Developed a front-end AJAX module that accepts plain text for a cocktail recipe on The Spirit website [http://thespir.it],  submits to a PHP server-side handler that parses each line for units, measure, and ingredient using a term database.</li>
+                <li>Consolidated asynchronous requests into a single view-aggregation controller in PHP.</li>
+              </ul>
+            </div>
+            <div><h5>2009</h5>
+              <ul>
+                <li>Implemented a food-wine pairing algorithm in perl. A tree of given terms is used to parse keywords from recipe text, and scored/boosted based on importance and proximity.   The recipe is matched to a flavor profile, which is paired editorially to a set of wine categories.</li>
+                <li>Developed a site widget for Epicurious.com and MyRecipes.com that takes a previously processed recipe and recommends wines paired to that recipe flavor profile.  The data is pre-loaded as executable Javascript into a Tokyo Tyrant cache.</li>
+                <li>Implemented internal link structure changes based on SEO recommendations, including site indices for Google.</li>
+              </ul>
+            </div>
+            <div><h5>2008</h5>
+              <ul>
+                <li>Worked with the front-end PHP MVC framework, custom-built by the CTO, to develop basic site features like wine variety (group) pages. The framework uses a guide to select a controller, which chooses a view, and this view has an associated loader based on naming conventions.</li>
+                <li>Developed a perl module to score the similarity between wines based on 10+ attributes</li>
+                <li>Re-factored the perl data-import code to use a single type of model object that creates setter functions which filter their inputs through a given list of subroutines. These routines remove common stop-words and extract data, e.g. pulling vintage from a wine name.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div data-section="employer">
+          <h3>Sol Genomics Network (SGN)</h3>
+          <address>Ithaca, NY</address>
+          <details>TODO</details>
+          <div data-section="role">
+            Programmer/Analyst, October 2006 – January 2008
+            <ul>
+              <li>Built perl modules for handling sequence alignment, and custom user lists of gene profiles.</li>
+              <li>Re-factored code allowing researchers to combine phylogenetic tree and alignment views, and browse genomic alignments visually.</li>
+              <li>Performed Linux sysadmin and svn repository management within a 6-member development team.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section data-primary="education">
+        <h2>Education</h2>
+        <div data-section="school">
+          <h3>Cornell University, <span>August 2002 - May 2006</span></h3>
+          <details>Bachelor's degree in Operations Research and Industrial Engineering</details>
+          <ul>
+            <li>Logistics-oriented discipline, with a concentration on statistics and optimization problems.</li>
+            <li>Two years of common engineering curriculum: math, physics, chemistry, computer science.</li>
+          </ul>
+        </div>
+      </section>
+    </article>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
